@@ -34,7 +34,7 @@ void WorkWithIntegers()
 
 void OrderPrecedence()
 {
-  int a = 5;
+  int a = 1;
     int b = 4;
     int c = 2;
     int d = a + b * c;
