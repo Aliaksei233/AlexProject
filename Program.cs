@@ -55,7 +55,7 @@ void OrderPrecedence()
 
 void TestLimits()
 {
-    int a = 7;
+    int a = 10;
 int b = 4;
 int c = 3;
 int d = (a + b) / c;
