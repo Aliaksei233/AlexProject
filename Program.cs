@@ -182,7 +182,7 @@ void TheSecondTask ()
 
 void WorkWithStrings ()
 {
-var names = new List<string> { "Aliaksei", "Ana", "Felipe" };
+var names = new List<string> { "Aliaksei", "Volha", "Felipe" };
 foreach (var name in names)
 {
     Console.WriteLine($"Hello {name.ToUpper()}!");
@@ -190,7 +190,7 @@ foreach (var name in names)
 Console.WriteLine();
 names.Add("Maria");
 names.Add("Bill");
-names.Remove("Ana");
+names.Remove("Volha");
 foreach (var name in names)
 {
     Console.WriteLine($"Hello {name.ToUpper()}!");
